@@ -53,7 +53,13 @@ const Input: React.FC<Props> = ({
 
   if (type === 'checkbox') {
     return (
-      <Container>
+      <Container
+        hasError={hasError ?? false}
+        hasFocus={hasFocus}
+        type={type}
+        disabled={disabled}
+        className="input-component"
+      >
         <input
           type="checkbox"
           className={className}
@@ -112,7 +118,7 @@ const Input: React.FC<Props> = ({
             defaultValue={defaultValue}
           />
         )}
-        {(type === 'text' || type === 'date') && (
+        {type !== 'checkbox' && type !== 'select' && type !== 'textarea' && (
           <input
             className={className}
             type={type}

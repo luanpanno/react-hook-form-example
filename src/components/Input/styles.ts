@@ -13,7 +13,6 @@ export const Container = styled.div<Props>`
   flex-direction: ${(props) => (props.type === 'checkbox' ? 'row' : 'column')};
   align-items: ${(props) =>
     props.type === 'checkbox' ? 'center' : 'flex-start'};
-  margin-top: ${(props) => props.type === 'checkbox' && '8px'};
   margin-bottom: 5px;
 
   label {

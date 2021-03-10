@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.form`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   background-color: #fff;
   border-radius: 5px;
   padding: 25px;
@@ -15,6 +18,5 @@ export const Container = styled.form`
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
-    margin-top: 25px;
   }
 `;
