@@ -1,5 +1,7 @@
 # 🚀 React Hook Form Example
 
+by Luan Panno
+
 ## 🔧 How to run the project
 
 1.  Install the repository dependencies by running the following line in your terminal:
