@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# 🚀 React Hook Form Example
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔧 How to run the project
 
-## Available Scripts
+1.  Install the repository dependencies by running the following line in your terminal:
 
-In the project directory, you can run:
+        yarn add
 
-### `yarn start`
+2.  Run the project by the following line:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+        yarn start
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### ⚙️ Settings
 
-### `yarn test`
+✅ [ESLint / Prettier / ImportHelper](https://gist.github.com/erodrigues-dev/ab01d0dc2a960e1f50c3f52b89ac62a9)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🏁 [Husky / LintStaged](https://gist.github.com/erodrigues-dev/8ec49f3416302a4e4536bd7d3143af36)
 
-### `yarn build`
+🌐 [Git Commit Msg Linter](https://github.com/legend80s/commit-msg-linter#readme)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📝︎ VSCODE Extensions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 
-### `yarn eject`
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [React-Native/React/Redux snippets for es6/es7](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
