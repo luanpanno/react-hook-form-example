@@ -1,11 +1,12 @@
-import Form from '../../components/Form';
+import Form from './Form';
+import { Container } from './styles';
 
 const Home = () => {
   return (
-    <div>
+    <Container>
       <h1>React Hook Form Example</h1>
       <Form />
-    </div>
+    </Container>
   );
 };
 
