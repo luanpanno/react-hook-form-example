@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css, DefaultTheme } from 'styled-components';
 
 type Colors = 'primary' | 'secondary' | 'warning' | 'light';
 interface Props {
@@ -8,16 +8,7 @@ interface Props {
   disabled?: boolean;
 }
 
-interface Theme {
-  colors: {
-    primary: string;
-    secondary: string;
-    grey: string;
-    red: string;
-  };
-}
-
-function getColors(color: Colors, theme: Theme) {
+function getColors(color: Colors, theme: DefaultTheme) {
   const COLORS = {
     primary: theme.colors.primary,
     secondary: theme.colors.secondary,
