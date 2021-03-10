@@ -1,8 +1,16 @@
+import { ToastContainer } from 'react-toastify';
+import { ThemeProvider } from 'styled-components';
+
+import { GlobalStyles, theme } from './assets/styles';
+import Home from './pages/Home';
+
 function App() {
   return (
-    <div>
-      <h1>React Hook Form Example</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+      <ToastContainer />
+      <GlobalStyles />
+      <Home />
+    </ThemeProvider>
   );
 }
 
