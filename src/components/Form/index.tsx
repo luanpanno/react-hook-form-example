@@ -1,9 +1,10 @@
 import Button from '../Button';
+import Input from '../Input';
 
 const Form = () => {
   return (
     <form>
-      <input type="text" />
+      <Input label="Name" name="email" />
       <Button type="submit">Submit</Button>
     </form>
   );
