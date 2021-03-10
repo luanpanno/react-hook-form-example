@@ -25,7 +25,7 @@ export const Container = styled.div<Props>`
   select,
   textarea {
     margin: 5px 0;
-    border-radius: 5px;
+    border-radius: 2px;
     outline: 0;
     background-color: #fff;
     padding: 5px;
