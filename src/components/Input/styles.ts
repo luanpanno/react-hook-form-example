@@ -19,6 +19,7 @@ export const Container = styled.div<Props>`
   label {
     color: ${(props) => (props.hasError ? props.theme.colors.red : 'black')};
     padding-left: ${(props) => props.type === 'checkbox' && '10px'};
+    font-weight: 500;
   }
 
   input,

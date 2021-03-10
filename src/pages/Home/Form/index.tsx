@@ -6,7 +6,11 @@ const Form = () => {
   return (
     <Container>
       <Input label="Name" name="email" />
-      <Button type="submit">Submit</Button>
+
+      <div className="buttons">
+        <Button color="warning">Clear</Button>
+        <Button type="submit">Submit</Button>
+      </div>
     </Container>
   );
 };
